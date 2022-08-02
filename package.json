@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "./node_modules/.bin/babel src --out-dir ./dist --copy-files",
-    "postinstall": "npm run build"
+    "postinstall": "npm install && npm run build"
   },
   "repository": {
     "type": "git",
