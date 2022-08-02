@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "./node_modules/.bin/babel src --out-dir ./dist --copy-files && cp ./{LICENSE,README.md,package.json} ./dist"
+    "build": "./node_modules/.bin/babel src --out-dir ./dist --copy-files"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ericz1803/react-google-calendar.git"
+    "url": "git+https://github.com/luca85perez/react-google-calendar.git"
   },
   "author": "Eric Zhou",
   "license": "MIT",
