@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "./node_modules/.bin/babel src --out-dir ./dist --copy-files"
+    "build": "./node_modules/.bin/babel src --out-dir ./dist --copy-files",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
