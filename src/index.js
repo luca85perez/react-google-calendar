@@ -561,13 +561,13 @@ export default class Calendar extends React.Component {
         </div>
         { this.state.showFooter && 
           <div className="calendar-footer">
-            <div css={css`
+            {/* <div css={css`
               font-size: 14px;
               padding-left: 5px;
               text-align: left;
             `}>
               All times shown your timezone ({moment().tz(this.state.userTimezone).format("z")})
-            </div>
+            </div> */}
             <div css={css`
               vertical-align: top;
               margin-left: 3px;
@@ -581,7 +581,7 @@ export default class Calendar extends React.Component {
                   text-decoration: underline;
                 }
               `}>
-                &#43; Add Calendar
+                &#43; Adicionar agenda
               </a>
             </div>
           </div>

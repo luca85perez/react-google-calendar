@@ -47,7 +47,7 @@ export const Languages = {
       "Agosto",
       "Setembro",
       "Outubro",
-      "Nome",
+      "Novembro",
       "Dezembro",
     ],
     DAYS: ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"],
