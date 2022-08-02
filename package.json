@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "./node_modules/.bin/babel src --out-dir ./dist --copy-files",
-    "prepare": "npm run build"
+    "prepare": "./node_modules/.bin/babel src --out-dir ./dist --copy-files"
   },
   "repository": {
     "type": "git",
